@@ -1,0 +1,47 @@
+Prueba Técnica para Ingeniero Junior en React y Node
+
+
+Construye un catálogo de productos simple utilizando una arquitectura de microservicios. 
+El proyecto constará de dos microservicios:
+
+Servicio Frontend (React): Este servicio será una aplicación React que mostrará un catálogo de productos. 
+Debe tener las siguientes características:
+
+* Mostrar una lista de productos con su nombre, descripción y precio. ✔️
+**Mostrar la imagen es mas facil que describir ✔️
+
+
+* Permitir filtrar los productos por categoría.✔️
+** precio
+** Tipo
+
+
+* Diseñar un carrito de compras (Apartado de compras)✔️
+** El precio de los productos en el carrito ✔️
+** Cantidad ✔️
+
+
+* Permitir agregar productos al carrito de compras.✔️
+* Eliminar? ✔️
+
+Diseño atractivo y responsivo utilizando CSS, Styled Components o cualquier biblioteca de estilos que prefieras. ✔️
+
+
+/tiempo/
+
+3 horas construyendo y comentando todo
+3 horas (O mas) corriguiendo errores
+
+
+Servicio Backend (Node.js): Este servicio será una API construida con Node.js y Express que proporcionará los datos de los productos. Debe tener las siguientes características:
+Almacenar la información de los productos en una base de datos (puedes usar una base de datos en memoria como SQLite o un archivo JSON).
+Responder a las solicitudes GET para obtener la lista de productos y categorías.
+Responder a las solicitudes POST para agregar productos al carrito de compras (no es necesario implementar un proceso de compra real).
+Entrega:
+Crea dos repositorios en GitHub: uno para el servicio Frontend (React) y otro para el servicio Backend (Node.js).
+Asegúrate de incluir instrucciones claras sobre cómo instalar y ejecutar cada servicio.
+Incluye un archivo README.md en cada repositorio con una breve descripción del proyecto y cualquier información relevante.
+Notas Adicionales:
+La funcionalidad es más importante que el diseño en esta prueba, pero se valorará el uso efectivo de CSS o cualquier biblioteca de estilos.
+Asegúrate de manejar posibles errores o casos límite de manera adecuada (por ejemplo, productos no encontrados, errores en la solicitud, etc.).
+Si encuentras algún problema o no puedes completar algún ejercicio, no dudes en documentarlos y explicar cómo lo abordaste.
